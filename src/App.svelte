@@ -1,19 +1,18 @@
 <script>
-  import logo from './assets/svelte.png'
+  // import logo from './assets/svelte.png'
   // import Counter from './lib/Counter.svelte'
 </script>
 
 <main>
-  <img src={logo} alt="Svelte Logo" />
-  <h1>Hello pluscod.es</h1>
+  <h1>+ pluscod.es</h1>
 
   <!-- <Counter /> -->
 </main>
 
 <style>
   :root {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
   }
 
 
@@ -31,7 +30,7 @@
   h1 {
     color: yellow;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 100;
     line-height: 1.1;
     margin: 2rem auto;
