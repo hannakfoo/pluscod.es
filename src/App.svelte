@@ -5,16 +5,13 @@
 
 <main>
   <h1>+ pluscod.es</h1>
-
-  <!-- <Counter /> -->
+  <p>This is a project a made in <a href="https://dusty.domains/">dustydomains</a> campagne by Netlify.</p>
 </main>
 
 <style>
   :root {
-    font-family: 'Catamaran', sans-serif;
-font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
   }
-
 
   main {
     text-align: center;
@@ -31,14 +28,19 @@ font-family: 'IBM Plex Sans', sans-serif;
     color: yellow;
     text-transform: uppercase;
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.1;
     margin: 2rem auto;
-    max-width: 14rem;
+  }
+  a{
+    text-decoration: underline;
+    color:yellow;
+    font-weight: bold;
   }
 
   p {
     max-width: 14rem;
+    color: yellow;
     margin: 1rem auto;
     line-height: 1.35;
   }
